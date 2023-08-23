@@ -6,7 +6,7 @@ from home2_app.models import Product, Client
 
 
 class Command(BaseCommand):
-    help = "Generate fake clients ."
+    help = "Generate fake clients products ."
 
     def add_arguments(self, parser):
         parser.add_argument('count', type=int, help='User ID')

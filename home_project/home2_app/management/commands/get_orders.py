@@ -5,7 +5,7 @@ from home2_app.models import Client, Order
 
 
 class Command(BaseCommand):
-    help = "Get user orders by user nameget_orders.py "
+    help = "Get user orders by user name "
 
     def add_arguments(self, parser):
         parser.add_argument('name',type=str, help="Client_name")

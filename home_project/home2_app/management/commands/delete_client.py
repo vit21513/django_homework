@@ -4,7 +4,7 @@ from home2_app.models import Client
 
 
 class Command(BaseCommand):
-    help = "Get user by id"
+    help = "delete client by id"
 
     def add_arguments(self, parser):
         parser.add_argument('pk',type=int, help="User_id")

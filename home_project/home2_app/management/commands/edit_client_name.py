@@ -3,7 +3,7 @@ from home2_app.models import Client
 
 
 class Command(BaseCommand):
-    help = "edit user orders by user name "
+    help = "edit client  name "
 
     def add_arguments(self, parser):
         parser.add_argument('name', type=str, help="Client_name")
