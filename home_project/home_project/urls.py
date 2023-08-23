@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('oneapp.urls')),
+    path('h2', include('home2_app.urls')),
 ]
