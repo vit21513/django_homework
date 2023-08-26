@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Orders by name</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<h3> All orders by client:{{ name_client }}</h3>
+
+
+{% for  item in client %}
+
+<p> Заказ №{{ item.pk }} Товары:
+
+    {% for i in item.product.all.distinct %}
+    {{ i.name }}
+    {% endfor %}
+    Стоимость заказа {{ item.total_price }} Дата заказа {{ item.data_order }}</p>
+
+    {% endfor %}
+
+<h1>__________________________________________________________________________________________</h1>
+
+    {% for  item in orders_week %}
+   <p> Заказы за последнюю неделю №{{ item.pk }} Товары:
+   {% for i in item.product.all.distinct %}
+    {{ i.name }}
+    {% endfor %}
+    Стоимость заказа {{ item.total_price }} Дата заказа {{ item.data_order }}</p>
+    {% endfor %}
+
+<h1>__________________________________________________________________________________________</h1>
+
+  {% for  item in orders_month %}
+<p> Заказы за последний месяц №{{ item.pk }} Товары:
+
+  {% for i in item.product.all.distinct %}
+    {{ i.name }}
+    {% endfor %}
+    Стоимость заказа {{ item.total_price }} Дата заказа {{ item.data_order }}</p>
+    {% endfor %}
+
+<h1>__________________________________________________________________________________________</h1>
+
+  {% for  item in orders_year %}
+<p> Заказы за последний год №{{ item.pk }} Товары:
+   {% for i in item.product.all.distinct %}
+    {{ i.name }}
+    {% endfor %}
+    Стоимость заказа {{ item.total_price }} Дата заказа {{ item.data_order }}</p>
+    {% endfor %}
+
