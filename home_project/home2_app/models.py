@@ -21,9 +21,10 @@ class Product(models.Model):
     price = models.FloatField()
     quantu = models.IntegerField()
     data_adding = models.DateField(auto_now_add=True)
+    image = models.ImageField(upload_to = "media/")
 
     def __str__(self):
-        return f"Product name {self.name} price {self.price} usd, quanty {self.quantu} description {self.description}"
+        return f"Product name {self.name}"
 
 
 class Order(models.Model):

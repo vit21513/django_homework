@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('oneapp.urls')),
     path('h2', include('home2_app.urls')),
     path('h3', include('home3_app.urls')),
+    path('h4', include('home4_app.urls')),
 ]
