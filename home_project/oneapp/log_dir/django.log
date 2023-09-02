@@ -3245,3 +3245,2120 @@ INFO 2023-08-26 11:03:08,080 basehttp 15356 29224 "GET /h3/orders/Name6/ HTTP/1.
 INFO 2023-08-26 11:04:06,045 basehttp 15356 29224 "GET /h3/orders/Name6/ HTTP/1.1" 200 3293
 INFO 2023-08-26 11:04:10,170 basehttp 15356 29224 "GET /h3/orders/Name10/ HTTP/1.1" 200 4318
 INFO 2023-08-26 11:06:10,032 basehttp 15356 29224 "GET /h3/orders/Namlkle10/ HTTP/1.1" 200 5357
+INFO 2023-08-26 12:35:07,149 autoreload 7380 17720 Watching for file changes with StatReloader
+INFO 2023-08-26 12:35:09,007 basehttp 7380 23240 "GET / HTTP/1.1" 200 420
+WARNING 2023-08-26 12:35:09,209 log 7380 23240 Not Found: /favicon.ico
+WARNING 2023-08-26 12:35:09,210 basehttp 7380 23240 "GET /favicon.ico HTTP/1.1" 404 2648
+INFO 2023-08-26 12:35:13,716 basehttp 7380 23240 "GET /h3/orders/Namlkle10/ HTTP/1.1" 200 5357
+INFO 2023-08-26 12:35:17,819 basehttp 7380 23240 "GET /h3/orders/Namlkle1/ HTTP/1.1" 200 5357
+INFO 2023-08-26 12:35:25,368 basehttp 7380 23240 "GET /h3/orders/Namlkle2/ HTTP/1.1" 200 5357
+INFO 2023-08-26 12:35:41,295 basehttp 7380 23240 "GET /h3/orders/Name3/ HTTP/1.1" 200 3213
+INFO 2023-08-26 12:36:02,025 basehttp 7380 23240 "GET / HTTP/1.1" 200 420
+INFO 2023-08-26 12:36:21,972 basehttp 7380 23240 "GET /h3 HTTP/1.1" 200 21
+INFO 2023-08-26 12:36:27,399 basehttp 7380 23240 "GET /h3/orders/Name3/ HTTP/1.1" 200 3213
+INFO 2023-08-26 12:36:35,166 basehttp 7380 23240 "GET /h3/orders/Name4 HTTP/1.1" 301 0
+INFO 2023-08-26 12:36:35,210 basehttp 7380 6208 "GET /h3/orders/Name4/ HTTP/1.1" 200 4097
+INFO 2023-08-26 12:37:26,841 basehttp 7380 6208 "GET /h3/orders/Name4/ HTTP/1.1" 200 4097
+INFO 2023-08-26 12:38:22,970 basehttp 7380 6208 "GET /h3/orders/Name3/ HTTP/1.1" 200 3213
+INFO 2023-08-26 12:38:23,751 basehttp 7380 6208 "GET /h3/orders/Name3/ HTTP/1.1" 200 3213
+WARNING 2023-08-26 12:38:55,594 log 7380 24116 Not Found: /favicon.ico
+WARNING 2023-08-26 12:38:55,597 basehttp 7380 24116 "GET /favicon.ico HTTP/1.1" 404 2648
+INFO 2023-08-30 20:09:37,507 autoreload 1712 11128 Watching for file changes with StatReloader
+INFO 2023-08-30 20:09:42,523 basehttp 1712 17412 "GET / HTTP/1.1" 200 420
+WARNING 2023-08-30 20:09:42,926 log 1712 17412 Not Found: /favicon.ico
+WARNING 2023-08-30 20:09:42,926 basehttp 1712 17412 "GET /favicon.ico HTTP/1.1" 404 2750
+WARNING 2023-08-30 20:10:18,384 log 1712 17412 Not Found: /h4
+WARNING 2023-08-30 20:10:18,384 basehttp 1712 17412 "GET /h4 HTTP/1.1" 404 2807
+WARNING 2023-08-30 20:10:27,810 log 1712 17412 Not Found: /h4/creaty_orders/
+WARNING 2023-08-30 20:10:27,811 basehttp 1712 17412 "GET /h4/creaty_orders/ HTTP/1.1" 404 2852
+INFO 2023-08-30 20:11:00,504 autoreload 1712 11128 C:\teach\pyt\django_homework\home_project\home4_app\urls.py changed, reloading.
+INFO 2023-08-30 20:11:01,136 autoreload 17696 18692 Watching for file changes with StatReloader
+WARNING 2023-08-30 20:11:03,543 log 17696 15024 Not Found: /h4/creaty_product
+WARNING 2023-08-30 20:11:03,543 basehttp 17696 15024 "GET /h4/creaty_product HTTP/1.1" 404 2853
+WARNING 2023-08-30 20:11:29,894 log 17696 15024 Not Found: /creaty_product/
+WARNING 2023-08-30 20:11:29,895 basehttp 17696 15024 "GET /creaty_product/ HTTP/1.1" 404 2762
+WARNING 2023-08-30 20:11:37,071 log 17696 15024 Not Found: /h4
+WARNING 2023-08-30 20:11:37,072 basehttp 17696 15024 "GET /h4 HTTP/1.1" 404 2808
+WARNING 2023-08-30 20:11:44,248 log 17696 15024 Not Found: /h4/creaty_product
+WARNING 2023-08-30 20:11:44,249 basehttp 17696 15024 "GET /h4/creaty_product HTTP/1.1" 404 2853
+INFO 2023-08-30 20:12:00,677 autoreload 17696 18692 C:\teach\pyt\django_homework\home_project\home4_app\urls.py changed, reloading.
+INFO 2023-08-30 20:12:01,343 autoreload 17532 16192 Watching for file changes with StatReloader
+INFO 2023-08-30 20:12:01,512 basehttp 17532 27284 "GET /h4/creaty_product HTTP/1.1" 301 0
+ERROR 2023-08-30 20:12:01,817 log 17532 25112 Internal Server Error: /h4/creaty_product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view home4_app.views.creaty_product didn't return an HttpResponse object. It returned None instead.
+ERROR 2023-08-30 20:12:01,818 basehttp 17532 25112 "GET /h4/creaty_product/ HTTP/1.1" 500 69581
+INFO 2023-08-30 20:13:40,562 autoreload 17532 16192 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:13:41,310 autoreload 19216 13512 Watching for file changes with StatReloader
+INFO 2023-08-30 20:13:41,731 basehttp 19216 16476 "GET /h4/creaty_product/ HTTP/1.1" 200 1390
+INFO 2023-08-30 20:14:16,941 basehttp 19216 16476 "POST /h4/creaty_product/ HTTP/1.1" 200 1498
+INFO 2023-08-30 20:16:54,305 autoreload 19216 13512 C:\teach\pyt\django_homework\home_project\home_project\settings.py changed, reloading.
+INFO 2023-08-30 20:16:55,035 autoreload 20212 28584 Watching for file changes with StatReloader
+INFO 2023-08-30 20:17:18,963 basehttp 20212 14528 "POST /h4/creaty_product/ HTTP/1.1" 200 1498
+INFO 2023-08-30 20:20:41,686 autoreload 20212 28584 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:20:42,391 autoreload 23300 26272 Watching for file changes with StatReloader
+ERROR 2023-08-30 20:20:46,203 log 23300 5176 Internal Server Error: /h4/creaty_product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 24, in creaty_product
+    return render(request, 'home4_app/creaty_product.html', {'form': form,'mesage':mesage})
+                                                                                   ^^^^^^
+UnboundLocalError: cannot access local variable 'mesage' where it is not associated with a value
+ERROR 2023-08-30 20:20:46,205 basehttp 23300 5176 "POST /h4/creaty_product/ HTTP/1.1" 500 70040
+ERROR 2023-08-30 20:21:05,596 log 23300 5176 Internal Server Error: /h4/creaty_product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 24, in creaty_product
+    return render(request, 'home4_app/creaty_product.html', {'form': form,'mesage':mesage})
+                                                                                   ^^^^^^
+UnboundLocalError: cannot access local variable 'mesage' where it is not associated with a value
+ERROR 2023-08-30 20:21:05,599 basehttp 23300 5176 "POST /h4/creaty_product/ HTTP/1.1" 500 70040
+ERROR 2023-08-30 20:21:08,138 log 23300 5176 Internal Server Error: /h4/creaty_product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 24, in creaty_product
+    return render(request, 'home4_app/creaty_product.html', {'form': form,'mesage':mesage})
+                                                                                   ^^^^^^
+UnboundLocalError: cannot access local variable 'mesage' where it is not associated with a value
+ERROR 2023-08-30 20:21:08,140 basehttp 23300 5176 "GET /h4/creaty_product/ HTTP/1.1" 500 68538
+ERROR 2023-08-30 20:21:46,406 log 23300 5176 Internal Server Error: /h4/creaty_product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 24, in creaty_product
+    form = Product()
+                     
+UnboundLocalError: cannot access local variable 'mesage' where it is not associated with a value
+ERROR 2023-08-30 20:21:46,407 basehttp 23300 5176 "GET /h4/creaty_product/ HTTP/1.1" 500 68713
+INFO 2023-08-30 20:21:47,020 autoreload 23300 26272 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:21:47,642 autoreload 17260 5224 Watching for file changes with StatReloader
+INFO 2023-08-30 20:21:51,150 basehttp 17260 28028 "GET /h4/creaty_product/ HTTP/1.1" 200 1390
+INFO 2023-08-30 20:21:52,106 basehttp 17260 28028 "GET /h4/creaty_product/ HTTP/1.1" 200 1390
+ERROR 2023-08-30 20:22:11,848 log 17260 8140 Internal Server Error: /h4/creaty_product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 25, in creaty_product
+    return render(request, 'home4_app/creaty_product.html', {'form': form,'mesage':mesage})
+                                                                                   ^^^^^^
+UnboundLocalError: cannot access local variable 'mesage' where it is not associated with a value
+ERROR 2023-08-30 20:22:11,850 basehttp 17260 8140 "POST /h4/creaty_product/ HTTP/1.1" 500 69989
+INFO 2023-08-30 20:23:21,068 autoreload 17260 5224 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:23:21,786 autoreload 16756 21000 Watching for file changes with StatReloader
+INFO 2023-08-30 20:23:55,521 autoreload 16756 21000 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:23:56,284 autoreload 8624 11464 Watching for file changes with StatReloader
+ERROR 2023-08-30 20:23:56,600 log 8624 18888 Internal Server Error: /h4/creaty_product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 26, in creaty_product
+    return render(request, 'home4_app/creaty_product.html', {'form': form,'mesage':mesage})
+                                                                                   ^^^^^^
+UnboundLocalError: cannot access local variable 'mesage' where it is not associated with a value
+ERROR 2023-08-30 20:23:56,601 basehttp 8624 18888 "POST /h4/creaty_product/ HTTP/1.1" 500 69911
+INFO 2023-08-30 20:24:15,953 autoreload 8624 11464 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:24:16,709 autoreload 29504 1172 Watching for file changes with StatReloader
+INFO 2023-08-30 20:24:17,036 basehttp 29504 26896 "POST /h4/creaty_product/ HTTP/1.1" 200 1518
+INFO 2023-08-30 20:24:55,750 autoreload 29504 1172 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:24:56,383 autoreload 6680 7612 Watching for file changes with StatReloader
+INFO 2023-08-30 20:24:56,626 basehttp 6680 20436 "POST /h4/creaty_product/ HTTP/1.1" 200 1518
+INFO 2023-08-30 20:25:04,332 basehttp 6680 8196 "POST /h4/creaty_product/ HTTP/1.1" 200 1518
+INFO 2023-08-30 20:25:31,328 basehttp 6680 8196 "POST /h4/creaty_product/ HTTP/1.1" 200 1520
+INFO 2023-08-30 20:25:37,383 basehttp 6680 10396 "POST /h4/creaty_product/ HTTP/1.1" 200 1520
+INFO 2023-08-30 20:26:47,611 basehttp 6680 29396 "POST /h4/creaty_product/ HTTP/1.1" 200 1529
+INFO 2023-08-30 20:26:50,227 basehttp 6680 29396 "POST /h4/creaty_product/ HTTP/1.1" 200 1529
+INFO 2023-08-30 20:26:55,729 basehttp 6680 29396 "POST /h4/creaty_product/ HTTP/1.1" 200 1529
+INFO 2023-08-30 20:30:22,860 autoreload 6680 7612 C:\teach\pyt\django_homework\home_project\home2_app\models.py changed, reloading.
+INFO 2023-08-30 20:30:23,540 autoreload 20768 17756 Watching for file changes with StatReloader
+INFO 2023-08-30 20:33:37,226 autoreload 20768 17756 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:33:37,862 autoreload 28204 3376 Watching for file changes with StatReloader
+INFO 2023-08-30 20:35:06,289 autoreload 18504 22196 Watching for file changes with StatReloader
+INFO 2023-08-30 20:35:09,689 basehttp 18504 13988 "POST /h4/creaty_product/ HTTP/1.1" 200 1529
+INFO 2023-08-30 20:35:16,823 basehttp 18504 13988 "POST /h4/creaty_product/ HTTP/1.1" 200 1529
+INFO 2023-08-30 20:36:31,349 autoreload 18504 22196 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:36:32,131 autoreload 23204 16428 Watching for file changes with StatReloader
+INFO 2023-08-30 20:36:35,681 basehttp 23204 10620 "POST /h4/creaty_product/ HTTP/1.1" 200 1529
+INFO 2023-08-30 20:36:53,976 autoreload 23204 16428 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:36:54,697 autoreload 11948 20580 Watching for file changes with StatReloader
+INFO 2023-08-30 20:37:20,488 autoreload 11948 20580 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:37:21,112 autoreload 29332 19616 Watching for file changes with StatReloader
+INFO 2023-08-30 20:41:25,024 autoreload 29332 19616 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:41:25,672 autoreload 23204 28456 Watching for file changes with StatReloader
+INFO 2023-08-30 20:41:40,262 autoreload 23204 28456 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:41:40,921 autoreload 20088 1864 Watching for file changes with StatReloader
+INFO 2023-08-30 20:43:07,908 autoreload 20088 1864 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:43:08,567 autoreload 21192 27640 Watching for file changes with StatReloader
+INFO 2023-08-30 20:43:38,136 basehttp 21192 5432 "POST /h4/creaty_product/ HTTP/1.1" 200 1529
+INFO 2023-08-30 20:43:44,009 basehttp 21192 5432 "POST /h4/creaty_product/ HTTP/1.1" 200 1529
+INFO 2023-08-30 20:48:47,947 autoreload 2832 27404 Watching for file changes with StatReloader
+WARNING 2023-08-30 20:48:52,851 log 2832 15008 Not Found: /h4/creaty_product/
+WARNING 2023-08-30 20:48:52,852 basehttp 2832 15008 "POST /h4/creaty_product/ HTTP/1.1" 404 2857
+WARNING 2023-08-30 20:48:57,238 log 2832 15008 Not Found: /h4/creaty_product/
+WARNING 2023-08-30 20:48:57,238 basehttp 2832 15008 "POST /h4/creaty_product/ HTTP/1.1" 404 2857
+WARNING 2023-08-30 20:49:00,797 log 2832 15008 Not Found: /h4/creaty_product/
+WARNING 2023-08-30 20:49:00,798 basehttp 2832 15008 "GET /h4/creaty_product/ HTTP/1.1" 404 2856
+INFO 2023-08-30 20:49:50,544 autoreload 2832 27404 C:\teach\pyt\django_homework\home_project\home4_app\urls.py changed, reloading.
+INFO 2023-08-30 20:49:51,204 autoreload 21984 5520 Watching for file changes with StatReloader
+INFO 2023-08-30 20:49:54,278 basehttp 21984 12392 "GET /h4/creaty_product/ HTTP/1.1" 200 1401
+INFO 2023-08-30 20:50:09,022 basehttp 21984 12392 "POST /h4/creaty_product/ HTTP/1.1" 200 1503
+INFO 2023-08-30 20:50:32,198 basehttp 21984 12392 "POST /h4/creaty_product/ HTTP/1.1" 200 1503
+INFO 2023-08-30 20:53:22,644 autoreload 21984 5520 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:53:23,296 autoreload 4368 23484 Watching for file changes with StatReloader
+INFO 2023-08-30 20:55:09,594 autoreload 4368 23484 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:55:10,243 autoreload 17324 25460 Watching for file changes with StatReloader
+INFO 2023-08-30 20:55:11,710 basehttp 17324 10992 "POST /h4/creaty_product/ HTTP/1.1" 200 1503
+INFO 2023-08-30 20:55:16,536 basehttp 17324 10992 "POST /h4/creaty_product/ HTTP/1.1" 200 1503
+INFO 2023-08-30 20:56:01,095 basehttp 17324 10992 "POST /h4/creaty_product/ HTTP/1.1" 200 1503
+INFO 2023-08-30 20:57:30,374 autoreload 17324 25460 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:57:31,018 autoreload 27240 14412 Watching for file changes with StatReloader
+INFO 2023-08-30 20:58:24,340 autoreload 27240 14412 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 20:58:24,987 autoreload 14044 1484 Watching for file changes with StatReloader
+INFO 2023-08-30 20:58:26,386 basehttp 14044 13336 "POST /h4/creaty_product/ HTTP/1.1" 200 1503
+INFO 2023-08-30 20:58:30,582 basehttp 14044 13336 "POST /h4/creaty_product/ HTTP/1.1" 200 1503
+INFO 2023-08-30 21:03:03,598 autoreload 20252 16752 Watching for file changes with StatReloader
+INFO 2023-08-30 21:04:33,564 autoreload 20252 16752 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 21:04:34,220 autoreload 20192 3932 Watching for file changes with StatReloader
+INFO 2023-08-30 21:05:55,596 basehttp 20192 13160 "POST /h4/creaty_product/ HTTP/1.1" 200 1289
+INFO 2023-08-30 21:06:05,208 basehttp 20192 13160 "POST /h4/creaty_product/ HTTP/1.1" 200 1235
+INFO 2023-08-30 21:07:08,837 autoreload 20192 3932 C:\teach\pyt\django_homework\home_project\home_project\settings.py changed, reloading.
+INFO 2023-08-30 21:07:09,488 autoreload 8052 14868 Watching for file changes with StatReloader
+INFO 2023-08-30 21:07:17,676 basehttp 8052 13136 "POST /h4/creaty_product/ HTTP/1.1" 200 1243
+INFO 2023-08-30 21:09:45,789 basehttp 8052 13136 "POST /h4/creaty_product/ HTTP/1.1" 200 1473
+INFO 2023-08-30 21:10:11,707 basehttp 8052 13136 "POST /h4/creaty_product/ HTTP/1.1" 200 1464
+INFO 2023-08-30 21:11:09,278 basehttp 8052 13136 "POST /h4/creaty_product/ HTTP/1.1" 200 1495
+INFO 2023-08-30 21:11:24,073 basehttp 8052 13136 "GET /h4/creaty_product/ HTTP/1.1" 200 1417
+INFO 2023-08-30 21:11:39,275 basehttp 8052 13136 "POST /h4/creaty_product/ HTTP/1.1" 200 1496
+INFO 2023-08-30 21:23:37,730 autoreload 25144 2696 Watching for file changes with StatReloader
+INFO 2023-08-30 21:23:41,393 basehttp 25144 29004 "POST /h4/creaty_product/ HTTP/1.1" 200 1496
+INFO 2023-08-30 21:23:55,575 basehttp 25144 29004 "POST /h4/creaty_product/ HTTP/1.1" 200 1496
+INFO 2023-08-30 21:24:00,475 basehttp 25144 29004 "GET /h4/creaty_product/ HTTP/1.1" 200 1417
+INFO 2023-08-30 21:24:11,802 basehttp 25144 29004 "GET /h4/add_photo HTTP/1.1" 301 0
+INFO 2023-08-30 21:24:11,820 basehttp 25144 16760 "GET /h4/add_photo/ HTTP/1.1" 200 1441
+INFO 2023-08-30 21:24:49,873 basehttp 25144 16760 "GET /h4/add_photo/ HTTP/1.1" 200 1441
+INFO 2023-08-30 21:24:50,669 autoreload 25144 2696 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 21:24:51,294 autoreload 14468 15676 Watching for file changes with StatReloader
+INFO 2023-08-30 21:25:07,446 basehttp 14468 21432 "GET /h4/add_photo/ HTTP/1.1" 200 437
+ERROR 2023-08-30 21:25:10,587 log 14468 21432 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 35, in add_photo
+    form = Product_add_foto(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Product_add_foto() takes no arguments
+ERROR 2023-08-30 21:25:10,589 basehttp 14468 21432 "POST /h4/add_photo/ HTTP/1.1" 500 69355
+INFO 2023-08-30 21:25:49,923 autoreload 14468 15676 C:\teach\pyt\django_homework\home_project\home2_app\models.py changed, reloading.
+INFO 2023-08-30 21:25:50,665 autoreload 21160 27956 Watching for file changes with StatReloader
+INFO 2023-08-30 21:27:14,960 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:15,841 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:16,490 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:16,979 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:17,384 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:17,706 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:17,972 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:18,243 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:24,464 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 408
+INFO 2023-08-30 21:27:25,016 basehttp 21160 14208 "GET /h4/add_photo/ HTTP/1.1" 200 437
+ERROR 2023-08-30 21:28:08,758 log 21160 14208 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 35, in add_photo
+    form = Product_add_foto(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Product_add_foto() takes no arguments
+ERROR 2023-08-30 21:28:08,761 basehttp 21160 14208 "POST /h4/add_photo/ HTTP/1.1" 500 69355
+INFO 2023-08-30 21:31:08,109 autoreload 28900 2592 Watching for file changes with StatReloader
+INFO 2023-08-30 21:31:08,692 basehttp 28900 10208 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:31:09,565 basehttp 28900 10208 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:31:10,314 basehttp 28900 10208 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:31:10,912 basehttp 28900 10208 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:31:11,502 basehttp 28900 10208 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:31:55,295 autoreload 28900 2592 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 21:31:55,937 autoreload 22404 28180 Watching for file changes with StatReloader
+INFO 2023-08-30 21:33:03,515 basehttp 22404 24948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:03,657 autoreload 22404 28180 C:\teach\pyt\django_homework\home_project\home4_app\views.py changed, reloading.
+INFO 2023-08-30 21:33:04,302 autoreload 21144 27872 Watching for file changes with StatReloader
+INFO 2023-08-30 21:33:04,534 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:04,819 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:05,422 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:06,072 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:06,526 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:23,521 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:24,288 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:25,420 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:26,195 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:36,456 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:37,149 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:37,638 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:37,906 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:38,141 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:38,346 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:38,558 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:38,759 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:38,956 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:39,165 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:39,378 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:39,582 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:56,470 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 505
+INFO 2023-08-30 21:33:57,244 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:57,981 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:58,332 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:58,560 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:58,798 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:59,072 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:33:59,327 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:05,377 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:06,208 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:06,970 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:07,678 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:08,314 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:08,613 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:08,858 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:09,088 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:09,318 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:09,537 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:58,717 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:35:59,374 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:00,047 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:00,831 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:01,604 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:02,403 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:02,714 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:03,017 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:03,276 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+ERROR 2023-08-30 21:36:04,674 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 34, in add_photo
+    form = Product_add_foto(request.POST, request.FILES)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Product_add_foto() takes no arguments
+ERROR 2023-08-30 21:36:04,677 basehttp 21144 14948 "POST /h4/add_photo/ HTTP/1.1" 500 69478
+INFO 2023-08-30 21:36:08,841 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:11,107 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:17,216 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+INFO 2023-08-30 21:36:17,972 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 437
+ERROR 2023-08-30 21:39:03,961 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 45, in add_photo
+    return render(request, 'home4_app/add_image_product.html', {'form': form, 'mesage': mesage})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Product_add_foto' object is not iterable
+ERROR 2023-08-30 21:39:03,966 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 500 110043
+ERROR 2023-08-30 21:39:04,818 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 45, in add_photo
+    return render(request, 'home4_app/add_image_product.html', {'form': form, 'mesage': mesage})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'Product_add_foto' object is not iterable
+ERROR 2023-08-30 21:39:04,821 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 500 110043
+ERROR 2023-08-30 21:39:38,365 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 45, in add_photo
+    return render(request, 'home4_app/add_image_product.html', {'form': form, 'mesage': mesage})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ModelChoiceField' object is not iterable
+ERROR 2023-08-30 21:39:38,367 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 500 110096
+ERROR 2023-08-30 21:39:39,247 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 45, in add_photo
+    return render(request, 'home4_app/add_image_product.html', {'form': form, 'mesage': mesage})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ModelChoiceField' object is not iterable
+ERROR 2023-08-30 21:39:39,251 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 500 110096
+ERROR 2023-08-30 21:39:40,128 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 45, in add_photo
+    return render(request, 'home4_app/add_image_product.html', {'form': form, 'mesage': mesage})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ModelChoiceField' object is not iterable
+ERROR 2023-08-30 21:39:40,131 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 500 110096
+ERROR 2023-08-30 21:39:41,016 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 45, in add_photo
+    return render(request, 'home4_app/add_image_product.html', {'form': form, 'mesage': mesage})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ModelChoiceField' object is not iterable
+ERROR 2023-08-30 21:39:41,019 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 500 110096
+ERROR 2023-08-30 21:39:41,292 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 45, in add_photo
+    return render(request, 'home4_app/add_image_product.html', {'form': form, 'mesage': mesage})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ModelChoiceField' object is not iterable
+ERROR 2023-08-30 21:39:41,294 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 500 110096
+ERROR 2023-08-30 21:40:18,685 log 21144 14948 Internal Server Error: /h4/add_photo/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home4_app\views.py", line 45, in add_photo
+    return render(request, 'home4_app/add_image_product.html', {'form': form, 'mesage': mesage})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\template\defaulttags.py", line 193, in render
+    values = list(values)
+             ^^^^^^^^^^^^
+TypeError: 'ModelChoiceField' object is not iterable
+ERROR 2023-08-30 21:40:18,688 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 500 110096
+INFO 2023-08-30 21:40:19,418 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 516
+INFO 2023-08-30 21:40:20,605 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 516
+INFO 2023-08-30 21:40:35,149 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 516
+INFO 2023-08-30 21:40:35,791 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 443
+INFO 2023-08-30 21:40:36,559 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 443
+INFO 2023-08-30 21:40:36,969 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 443
+INFO 2023-08-30 21:45:01,326 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 516
+INFO 2023-08-30 21:45:02,213 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 516
+INFO 2023-08-30 21:45:02,742 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 516
+INFO 2023-08-30 21:45:03,073 basehttp 21144 14948 "GET /h4/add_photo/ HTTP/1.1" 200 516
+INFO 2023-08-30 21:49:24,688 autoreload 21144 27872 C:\teach\pyt\django_homework\home_project\home4_app\form.py changed, reloading.
+INFO 2023-08-30 21:49:25,375 autoreload 16868 22260 Watching for file changes with StatReloader
+INFO 2023-08-30 21:49:31,877 basehttp 16868 18700 "GET / HTTP/1.1" 200 420
+WARNING 2023-08-30 21:49:37,650 log 16868 18700 Not Found: /kl
+WARNING 2023-08-30 21:49:37,652 basehttp 16868 18700 "GET /kl HTTP/1.1" 404 2723
+INFO 2023-08-30 21:49:43,077 basehttp 16868 18700 "GET /h4/add_photo/ HTTP/1.1" 200 971
+INFO 2023-08-30 21:49:55,487 basehttp 16868 18700 "POST /h4/add_photo/ HTTP/1.1" 200 971
+INFO 2023-08-30 21:50:43,573 basehttp 16868 18700 "POST /h4/add_photo/ HTTP/1.1" 200 1353
+INFO 2023-08-30 21:50:55,091 basehttp 16868 18700 "POST /h4/add_photo/ HTTP/1.1" 200 1340
+INFO 2023-08-30 21:51:10,778 basehttp 16868 18700 "POST /h4/add_photo/ HTTP/1.1" 200 1253
+INFO 2023-08-30 21:51:20,280 basehttp 16868 18700 "POST /h4/add_photo/ HTTP/1.1" 200 1253
+INFO 2023-08-30 21:52:57,251 autoreload 16868 22260 C:\teach\pyt\django_homework\home_project\home4_app\form.py changed, reloading.
+INFO 2023-08-30 21:52:57,841 autoreload 4044 12392 Watching for file changes with StatReloader
+INFO 2023-09-02 07:12:40,095 autoreload 22624 10604 Watching for file changes with StatReloader
+INFO 2023-09-02 07:12:41,434 basehttp 22624 10184 "GET / HTTP/1.1" 200 420
+WARNING 2023-09-02 07:12:41,760 log 22624 10184 Not Found: /favicon.ico
+WARNING 2023-09-02 07:12:41,761 basehttp 22624 10184 "GET /favicon.ico HTTP/1.1" 404 2750
+INFO 2023-09-02 07:12:44,718 basehttp 22624 10184 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:12:44,843 basehttp 22624 10184 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-02 07:12:47,129 basehttp 22624 10184 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:12:47,141 basehttp 22624 10184 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-02 07:12:56,839 basehttp 22624 10184 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:12:56,887 basehttp 22624 10184 "GET /admin/ HTTP/1.1" 200 7083
+INFO 2023-09-02 07:13:05,409 basehttp 22624 10184 "GET /admin/auth/user/ HTTP/1.1" 200 11579
+INFO 2023-09-02 07:13:05,461 basehttp 22624 10184 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:13:07,633 basehttp 22624 10184 "GET /admin/auth/user/1/change/ HTTP/1.1" 200 21772
+INFO 2023-09-02 07:13:07,672 basehttp 22624 10184 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:13:09,144 basehttp 22624 10184 "GET /admin/auth/user/ HTTP/1.1" 200 11579
+INFO 2023-09-02 07:13:14,570 basehttp 22624 10184 "GET /admin/ HTTP/1.1" 200 7083
+INFO 2023-09-02 07:13:17,552 basehttp 22624 10184 "GET /admin/home2_app/client/ HTTP/1.1" 200 9761
+INFO 2023-09-02 07:13:17,591 basehttp 22624 10184 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:13:22,492 basehttp 22624 10184 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11168
+INFO 2023-09-02 07:13:22,526 basehttp 22624 10184 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:13:31,002 basehttp 22624 10184 "POST /admin/home2_app/client/3/change/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:13:31,030 basehttp 22624 10184 "GET /admin/home2_app/client/ HTTP/1.1" 200 10007
+INFO 2023-09-02 07:13:31,062 basehttp 22624 10184 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:13,513 autoreload 22624 10604 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:14:14,207 autoreload 24868 7752 Watching for file changes with StatReloader
+INFO 2023-09-02 07:14:16,119 basehttp 24868 9156 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:16,192 basehttp 24868 9156 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:17,164 basehttp 24868 9156 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:17,191 basehttp 24868 9156 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:26,880 autoreload 24868 7752 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:14:27,596 autoreload 10796 5236 Watching for file changes with StatReloader
+INFO 2023-09-02 07:14:29,264 basehttp 10796 16524 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:29,312 basehttp 10796 16524 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:30,189 basehttp 10796 16524 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:30,220 basehttp 10796 16524 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:30,905 basehttp 10796 16524 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:30,935 basehttp 10796 16524 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:31,587 basehttp 10796 16524 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:31,615 basehttp 10796 16524 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:32,295 basehttp 10796 16524 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:32,324 basehttp 10796 16524 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:39,260 autoreload 10796 5236 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:14:40,070 autoreload 15448 15244 Watching for file changes with StatReloader
+INFO 2023-09-02 07:14:40,708 basehttp 15448 24624 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:40,743 basehttp 15448 24624 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:41,387 basehttp 15448 24624 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:41,415 basehttp 15448 24624 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:42,056 basehttp 15448 24624 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:14:42,082 basehttp 15448 24624 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:43,531 basehttp 15448 24624 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:14:43,566 basehttp 15448 24624 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:14:51,652 autoreload 15448 15244 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:14:52,366 autoreload 11232 1680 Watching for file changes with StatReloader
+INFO 2023-09-02 07:17:09,189 autoreload 11232 1680 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:17:09,855 autoreload 25124 9224 Watching for file changes with StatReloader
+INFO 2023-09-02 07:17:10,893 basehttp 25124 12472 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:17:10,926 basehttp 25124 12472 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:17:11,602 basehttp 25124 12472 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:17:11,626 basehttp 25124 12472 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:17:12,246 basehttp 25124 12472 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:17:12,273 basehttp 25124 12472 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:17:13,739 basehttp 25124 12472 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:17:16,018 basehttp 25124 12472 "GET /admin/ HTTP/1.1" 200 7448
+INFO 2023-09-02 07:17:18,682 basehttp 25124 12472 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:17:18,708 basehttp 25124 12472 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:18:36,853 autoreload 25124 9224 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:18:37,518 autoreload 15292 28816 Watching for file changes with StatReloader
+INFO 2023-09-02 07:18:37,726 basehttp 15292 28348 "GET /admin/ HTTP/1.1" 200 7448
+INFO 2023-09-02 07:18:39,817 basehttp 15292 28348 "GET /admin/home2_app/product/ HTTP/1.1" 200 10823
+INFO 2023-09-02 07:18:39,846 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:18:43,510 basehttp 15292 28348 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 11749
+INFO 2023-09-02 07:18:43,542 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-09-02 07:18:52,545 log 15292 28348 Not Found: /media/icon2.png
+WARNING 2023-09-02 07:18:52,546 basehttp 15292 28348 "GET /media/icon2.png HTTP/1.1" 404 2762
+INFO 2023-09-02 07:19:07,540 basehttp 15292 28348 "GET / HTTP/1.1" 200 420
+INFO 2023-09-02 07:19:11,153 basehttp 15292 28348 "GET /admin/ HTTP/1.1" 200 7448
+INFO 2023-09-02 07:19:11,817 basehttp 15292 28348 "GET /admin/ HTTP/1.1" 200 7448
+INFO 2023-09-02 07:19:15,191 basehttp 15292 28348 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:19:15,224 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:19:20,034 basehttp 15292 28348 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:19:20,068 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:19:22,114 basehttp 15292 28348 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:19:23,918 basehttp 15292 28348 "GET /admin/home2_app/client/2/change/ HTTP/1.1" 200 11184
+INFO 2023-09-02 07:19:23,945 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:19:25,983 basehttp 15292 28348 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:19:28,290 basehttp 15292 28348 "GET /admin/ HTTP/1.1" 200 7448
+INFO 2023-09-02 07:19:30,110 basehttp 15292 28348 "GET /admin/home2_app/order/ HTTP/1.1" 200 8060
+INFO 2023-09-02 07:19:30,137 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:19:33,016 basehttp 15292 28348 "GET /admin/home2_app/order/add/ HTTP/1.1" 200 12290
+INFO 2023-09-02 07:19:33,042 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:19:46,880 basehttp 15292 28348 "POST /admin/home2_app/order/add/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:19:46,907 basehttp 15292 28348 "GET /admin/home2_app/order/ HTTP/1.1" 200 9607
+INFO 2023-09-02 07:19:46,940 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:19:49,901 basehttp 15292 28348 "GET /admin/home2_app/order/add/ HTTP/1.1" 200 12290
+INFO 2023-09-02 07:19:49,929 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:20:01,856 basehttp 15292 28348 "POST /admin/home2_app/order/add/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:20:01,887 basehttp 15292 28348 "GET /admin/home2_app/order/ HTTP/1.1" 200 9921
+INFO 2023-09-02 07:20:01,917 basehttp 15292 28348 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:20:05,940 basehttp 15292 28348 "GET /admin/home2_app/ HTTP/1.1" 200 5950
+INFO 2023-09-02 07:20:49,769 autoreload 812 22168 Watching for file changes with StatReloader
+INFO 2023-09-02 07:20:52,705 basehttp 812 29516 "GET /admin/home2_app/ HTTP/1.1" 200 5950
+INFO 2023-09-02 07:20:54,728 basehttp 812 29516 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:20:54,765 basehttp 812 29516 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:20:56,761 basehttp 812 29516 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:20:56,790 basehttp 812 29516 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:20:58,649 basehttp 812 29516 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:21:00,114 basehttp 812 29516 "GET /admin/home2_app/ HTTP/1.1" 200 5950
+INFO 2023-09-02 07:21:02,588 basehttp 812 29516 "GET /admin/home2_app/product/ HTTP/1.1" 200 10823
+INFO 2023-09-02 07:21:02,619 basehttp 812 29516 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:21:17,099 basehttp 812 29516 "GET /admin/home2_app/product/ HTTP/1.1" 200 10823
+INFO 2023-09-02 07:21:17,132 basehttp 812 29516 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:21:17,705 autoreload 812 22168 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:21:18,378 autoreload 21536 11008 Watching for file changes with StatReloader
+INFO 2023-09-02 07:21:19,173 basehttp 21536 11808 "GET /admin/home2_app/product/ HTTP/1.1" 200 10823
+INFO 2023-09-02 07:21:19,203 basehttp 21536 11808 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:21:45,820 basehttp 21536 11808 "GET /admin/home2_app/product/5/change/ HTTP/1.1" 200 11766
+INFO 2023-09-02 07:21:45,854 basehttp 21536 11808 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:21:48,360 basehttp 21536 11808 "GET /admin/home2_app/product/ HTTP/1.1" 200 10823
+INFO 2023-09-02 07:21:49,891 basehttp 21536 11808 "GET /admin/home2_app/ HTTP/1.1" 200 5950
+INFO 2023-09-02 07:21:52,187 basehttp 21536 11808 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:21:52,224 basehttp 21536 11808 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:24:21,293 autoreload 21536 11008 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:24:22,027 autoreload 27632 21340 Watching for file changes with StatReloader
+INFO 2023-09-02 07:24:22,457 basehttp 27632 28900 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:24:22,489 basehttp 27632 28900 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:24:23,125 basehttp 27632 28900 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:24:23,150 basehttp 27632 28900 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:24:24,136 basehttp 27632 28900 "GET /admin/home2_app/ HTTP/1.1" 200 5950
+INFO 2023-09-02 07:24:25,580 basehttp 27632 28900 "GET /admin/home2_app/product/ HTTP/1.1" 200 10823
+INFO 2023-09-02 07:24:25,612 basehttp 27632 28900 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:24:28,474 basehttp 27632 28900 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 11749
+INFO 2023-09-02 07:24:28,508 basehttp 27632 28900 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:24:41,154 basehttp 27632 28900 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 11749
+INFO 2023-09-02 07:24:41,186 basehttp 27632 28900 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:24:41,750 autoreload 27632 21340 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:24:42,398 autoreload 19704 5632 Watching for file changes with StatReloader
+INFO 2023-09-02 07:24:43,127 basehttp 19704 27848 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 11749
+INFO 2023-09-02 07:24:43,160 basehttp 19704 27848 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:24:43,660 basehttp 19704 27848 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 11749
+INFO 2023-09-02 07:24:43,687 basehttp 19704 27848 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:24:44,250 basehttp 19704 27848 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 11749
+INFO 2023-09-02 07:24:44,279 basehttp 19704 27848 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-09-02 07:24:45,905 log 19704 27848 Not Found: /media/icon2.png
+WARNING 2023-09-02 07:24:45,905 basehttp 19704 27848 "GET /media/icon2.png HTTP/1.1" 404 2762
+INFO 2023-09-02 07:27:48,723 autoreload 12472 18424 Watching for file changes with StatReloader
+INFO 2023-09-02 07:27:49,939 basehttp 12472 11460 "GET / HTTP/1.1" 200 420
+INFO 2023-09-02 07:27:53,707 basehttp 12472 11460 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:27:54,451 basehttp 12472 11460 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:27:57,846 basehttp 12472 11460 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:27:57,881 basehttp 12472 11460 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:28:00,513 basehttp 12472 11460 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:28:00,550 basehttp 12472 11460 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:28:03,582 basehttp 12472 11460 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:28:18,199 basehttp 12472 11460 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:28:22,374 basehttp 12472 11460 "GET /admin/home2_app/ HTTP/1.1" 200 5950
+INFO 2023-09-02 07:28:24,468 basehttp 12472 11460 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:28:33,332 basehttp 12472 11460 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:28:53,423 autoreload 12472 18424 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:28:54,081 autoreload 2008 23480 Watching for file changes with StatReloader
+INFO 2023-09-02 07:28:55,525 basehttp 2008 24120 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:28:55,569 basehttp 2008 24120 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:29:39,487 autoreload 2008 23480 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:29:40,146 autoreload 21936 6836 Watching for file changes with StatReloader
+INFO 2023-09-02 07:29:41,105 basehttp 21936 10472 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:29:46,060 basehttp 21936 10472 "GET /admin/home2_app/product/ HTTP/1.1" 200 10823
+INFO 2023-09-02 07:29:46,098 basehttp 21936 10472 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:29:53,580 basehttp 21936 10472 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:32:34,771 autoreload 25896 17928 Watching for file changes with StatReloader
+INFO 2023-09-02 07:32:36,907 basehttp 25896 13540 "GET / HTTP/1.1" 200 420
+INFO 2023-09-02 07:32:42,409 basehttp 25896 13540 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:32:42,450 basehttp 25896 13540 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-02 07:32:43,649 basehttp 25896 13540 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:32:43,660 basehttp 25896 13540 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-02 07:32:53,951 basehttp 25896 13540 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:32:53,979 basehttp 25896 13540 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:32:58,737 basehttp 25896 13540 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:32:58,777 basehttp 25896 13540 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:13,709 basehttp 25896 13540 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:13,745 basehttp 25896 13540 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:14,098 autoreload 25896 17928 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:33:14,849 autoreload 2992 13296 Watching for file changes with StatReloader
+INFO 2023-09-02 07:33:39,266 autoreload 8828 13512 Watching for file changes with StatReloader
+INFO 2023-09-02 07:33:39,629 basehttp 8828 3184 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:39,731 basehttp 8828 3184 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:45,277 basehttp 8828 3184 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:45,313 basehttp 8828 3184 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:45,709 autoreload 8828 13512 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:33:46,382 autoreload 28856 1968 Watching for file changes with StatReloader
+INFO 2023-09-02 07:33:47,048 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:47,076 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:47,896 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:47,921 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:48,493 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:48,520 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:49,004 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:49,029 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:49,526 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:49,556 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:50,043 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:50,068 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:50,460 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:50,493 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:50,898 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:50,925 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:51,394 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:51,419 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:58,163 basehttp 28856 4636 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:33:58,197 basehttp 28856 4636 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:33:58,930 autoreload 28856 1968 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:33:59,585 autoreload 22392 25716 Watching for file changes with StatReloader
+INFO 2023-09-02 07:34:16,804 basehttp 22392 14448 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:16,839 basehttp 22392 14448 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:17,363 autoreload 22392 25716 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:34:17,996 autoreload 28432 10076 Watching for file changes with StatReloader
+INFO 2023-09-02 07:34:18,559 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:18,586 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:19,077 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:19,104 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:19,585 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:19,614 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:19,989 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:20,017 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:20,325 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:20,351 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:20,576 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:20,601 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:20,861 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:20,887 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:21,139 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:21,163 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:21,681 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:21,706 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:27,768 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:27,800 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:28,343 basehttp 28432 16344 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:28,370 basehttp 28432 16344 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:28,508 autoreload 28432 10076 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:34:29,201 autoreload 3048 15560 Watching for file changes with StatReloader
+INFO 2023-09-02 07:34:29,922 basehttp 3048 1704 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:29,948 basehttp 3048 1704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:30,413 basehttp 3048 1704 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:30,442 basehttp 3048 1704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:30,843 basehttp 3048 1704 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:30,866 basehttp 3048 1704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:31,258 basehttp 3048 1704 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:31,287 basehttp 3048 1704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:31,602 basehttp 3048 1704 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:31,627 basehttp 3048 1704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:31,970 basehttp 3048 1704 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:31,995 basehttp 3048 1704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:34:34,231 basehttp 3048 1704 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:34:36,220 basehttp 3048 1704 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:34:36,246 basehttp 3048 1704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:37:08,997 basehttp 3048 1704 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:37:16,367 basehttp 3048 1704 "GET /admin/home2_app/client/ HTTP/1.1" 200 9762
+INFO 2023-09-02 07:37:16,412 basehttp 3048 1704 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:38:49,611 autoreload 3048 15560 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:38:50,323 autoreload 9096 14808 Watching for file changes with StatReloader
+INFO 2023-09-02 07:39:11,027 autoreload 9096 14808 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:39:11,709 autoreload 3332 19768 Watching for file changes with StatReloader
+INFO 2023-09-02 07:39:29,322 autoreload 3332 19768 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:39:29,919 autoreload 26672 16792 Watching for file changes with StatReloader
+INFO 2023-09-02 07:39:36,023 basehttp 26672 14252 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+INFO 2023-09-02 07:39:36,083 basehttp 26672 14252 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:39:58,430 basehttp 26672 14252 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+INFO 2023-09-02 07:39:58,464 basehttp 26672 14252 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:39:58,907 autoreload 26672 16792 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:39:59,600 autoreload 22796 25120 Watching for file changes with StatReloader
+INFO 2023-09-02 07:40:01,188 basehttp 22796 16372 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+INFO 2023-09-02 07:40:01,216 basehttp 22796 16372 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:40:03,919 basehttp 22796 16372 "GET /admin/home2_app/ HTTP/1.1" 200 5950
+INFO 2023-09-02 07:40:06,715 basehttp 22796 16372 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:40:08,108 basehttp 22796 16372 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+INFO 2023-09-02 07:40:08,143 basehttp 22796 16372 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2023-09-02 07:40:09,987 log 22796 16372 Internal Server Error: /admin/home2_app/client/3/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'data_registration' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'data_registration' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2023-09-02 07:40:09,992 basehttp 22796 16372 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 500 141645
+INFO 2023-09-02 07:40:11,566 basehttp 22796 16372 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+ERROR 2023-09-02 07:40:18,174 log 22796 16372 Internal Server Error: /admin/home2_app/client/3/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'data_registration' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'data_registration' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2023-09-02 07:40:18,178 basehttp 22796 16372 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 500 141645
+ERROR 2023-09-02 07:40:48,507 log 22796 16372 Internal Server Error: /admin/home2_app/client/3/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'data_registration' cannot be specified for Client model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'data_registration' cannot be specified for Client model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ClientAdmin.
+ERROR 2023-09-02 07:40:48,511 basehttp 22796 16372 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 500 141782
+INFO 2023-09-02 07:40:48,976 autoreload 22796 25120 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:40:49,668 autoreload 28156 25212 Watching for file changes with StatReloader
+INFO 2023-09-02 07:40:49,905 basehttp 28156 18852 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11738
+INFO 2023-09-02 07:40:49,950 basehttp 28156 18852 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:01,902 basehttp 28156 18852 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11738
+INFO 2023-09-02 07:41:01,936 basehttp 28156 18852 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:02,305 autoreload 28156 25212 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:41:02,990 autoreload 24440 23772 Watching for file changes with StatReloader
+INFO 2023-09-02 07:41:03,308 basehttp 24440 3772 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:41:03,336 basehttp 24440 3772 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:05,264 basehttp 24440 3772 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:41:05,288 basehttp 24440 3772 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:06,126 basehttp 24440 3772 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:41:06,153 basehttp 24440 3772 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:07,106 basehttp 24440 3772 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:41:07,134 basehttp 24440 3772 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:07,843 basehttp 24440 3772 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:41:07,868 basehttp 24440 3772 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:08,602 basehttp 24440 3772 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:41:08,630 basehttp 24440 3772 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:22,288 basehttp 24440 3772 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11172
+INFO 2023-09-02 07:41:22,322 basehttp 24440 3772 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:22,672 autoreload 24440 23772 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:41:23,353 autoreload 27456 10544 Watching for file changes with StatReloader
+INFO 2023-09-02 07:41:23,615 basehttp 27456 5288 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11738
+INFO 2023-09-02 07:41:23,648 basehttp 27456 5288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:41:42,808 basehttp 27456 5288 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:41:44,674 basehttp 27456 5288 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+INFO 2023-09-02 07:41:44,708 basehttp 27456 5288 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:42:26,353 basehttp 27456 5288 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:42:26,946 autoreload 27456 10544 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:42:27,621 autoreload 16044 24900 Watching for file changes with StatReloader
+INFO 2023-09-02 07:43:55,446 autoreload 16044 24900 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:43:56,061 autoreload 28224 11244 Watching for file changes with StatReloader
+INFO 2023-09-02 07:44:12,773 autoreload 21520 28996 Watching for file changes with StatReloader
+INFO 2023-09-02 07:44:27,306 autoreload 21520 28996 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:44:27,918 autoreload 24388 28348 Watching for file changes with StatReloader
+INFO 2023-09-02 07:44:28,127 basehttp 24388 27452 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:44:32,698 basehttp 24388 27452 "GET /admin/home2_app/product/ HTTP/1.1" 200 11221
+INFO 2023-09-02 07:44:32,740 basehttp 24388 27452 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:44:37,344 basehttp 24388 27452 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 11749
+INFO 2023-09-02 07:44:37,381 basehttp 24388 27452 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:44:58,775 basehttp 24388 27452 "GET /admin/home2_app/product/ HTTP/1.1" 200 11221
+INFO 2023-09-02 07:45:05,635 basehttp 24388 27452 "GET /admin/home2_app/product/ HTTP/1.1" 200 11221
+INFO 2023-09-02 07:45:05,670 basehttp 24388 27452 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:45:06,042 autoreload 24388 28348 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:45:06,726 autoreload 1656 4720 Watching for file changes with StatReloader
+INFO 2023-09-02 07:45:06,955 basehttp 1656 9096 "GET /admin/home2_app/product/ HTTP/1.1" 200 12279
+INFO 2023-09-02 07:45:06,983 basehttp 1656 9096 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:45:35,262 basehttp 1656 9096 "GET /admin/home2_app/product/ HTTP/1.1" 200 12279
+INFO 2023-09-02 07:45:35,304 basehttp 1656 9096 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:45:35,655 autoreload 1656 4720 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:45:36,282 autoreload 952 19928 Watching for file changes with StatReloader
+INFO 2023-09-02 07:45:36,575 basehttp 952 20984 "GET /admin/home2_app/product/ HTTP/1.1" 200 12638
+INFO 2023-09-02 07:45:36,602 basehttp 952 20984 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:45:53,873 basehttp 952 20984 "GET /admin/home2_app/product/ HTTP/1.1" 200 12638
+INFO 2023-09-02 07:45:53,907 basehttp 952 20984 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:45:53,948 autoreload 952 19928 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:45:54,619 autoreload 2012 23232 Watching for file changes with StatReloader
+INFO 2023-09-02 07:45:54,969 basehttp 2012 20808 "GET /admin/home2_app/product/ HTTP/1.1" 200 12949
+INFO 2023-09-02 07:45:55,000 basehttp 2012 20808 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:46:12,265 basehttp 2012 20808 "GET /admin/home2_app/product/ HTTP/1.1" 200 12949
+INFO 2023-09-02 07:46:12,276 autoreload 2012 23232 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:46:13,016 autoreload 11364 15012 Watching for file changes with StatReloader
+INFO 2023-09-02 07:46:14,143 basehttp 11364 23888 "GET /admin/home2_app/product/ HTTP/1.1" 200 12949
+INFO 2023-09-02 07:46:14,172 basehttp 11364 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:46:15,584 basehttp 11364 23888 "GET /admin/home2_app/product/ HTTP/1.1" 200 12949
+INFO 2023-09-02 07:46:15,613 basehttp 11364 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:46:30,432 basehttp 11364 23888 "GET /admin/home2_app/product/?q=cccc HTTP/1.1" 200 10589
+INFO 2023-09-02 07:46:30,465 basehttp 11364 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:46:33,835 basehttp 11364 23888 "GET /admin/home2_app/product/ HTTP/1.1" 200 12949
+INFO 2023-09-02 07:46:45,417 basehttp 11364 23888 "GET /admin/home2_app/product/?q=%D0%B0%D0%B0%D0%B0%D0%B0%D0%B0 HTTP/1.1" 200 12304
+INFO 2023-09-02 07:46:45,460 basehttp 11364 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:46:49,781 basehttp 11364 23888 "GET /admin/home2_app/product/?q=5 HTTP/1.1" 200 11403
+INFO 2023-09-02 07:46:49,815 basehttp 11364 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:47:12,979 basehttp 11364 23888 "GET /admin/home2_app/product/?q=5 HTTP/1.1" 200 11403
+INFO 2023-09-02 07:47:13,013 basehttp 11364 23888 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:47:13,528 autoreload 11364 15012 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:47:14,163 autoreload 28764 26924 Watching for file changes with StatReloader
+INFO 2023-09-02 07:47:15,782 basehttp 28764 3076 "GET /admin/home2_app/product/?q=%D0%B0%D0%B0%D0%B0%D0%B0%D0%B0 HTTP/1.1" 200 12304
+INFO 2023-09-02 07:47:16,594 basehttp 28764 3076 "GET /admin/home2_app/product/ HTTP/1.1" 200 12949
+INFO 2023-09-02 07:47:21,118 basehttp 28764 3076 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11749
+INFO 2023-09-02 07:47:21,155 basehttp 28764 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:05,395 basehttp 28764 3076 "GET /admin/home2_app/product/ HTTP/1.1" 200 12949
+INFO 2023-09-02 07:48:19,638 basehttp 28764 3076 "GET /admin/home2_app/product/?o=2 HTTP/1.1" 200 13560
+INFO 2023-09-02 07:48:19,675 basehttp 28764 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:22,167 basehttp 28764 3076 "GET /admin/home2_app/product/?o=-2 HTTP/1.1" 200 13585
+INFO 2023-09-02 07:48:22,197 basehttp 28764 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:22,973 basehttp 28764 3076 "GET /admin/home2_app/product/?o=2 HTTP/1.1" 200 13560
+INFO 2023-09-02 07:48:23,005 basehttp 28764 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:23,724 basehttp 28764 3076 "GET /admin/home2_app/product/?o=-2 HTTP/1.1" 200 13585
+INFO 2023-09-02 07:48:23,754 basehttp 28764 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:24,703 basehttp 28764 3076 "GET /admin/home2_app/product/?o=2 HTTP/1.1" 200 13560
+INFO 2023-09-02 07:48:24,733 basehttp 28764 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:47,799 basehttp 28764 3076 "GET /admin/home2_app/product/?o=2 HTTP/1.1" 200 13560
+INFO 2023-09-02 07:48:47,837 basehttp 28764 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:48,487 autoreload 28764 26924 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:48:49,107 autoreload 19980 5728 Watching for file changes with StatReloader
+INFO 2023-09-02 07:48:49,947 basehttp 19980 12596 "GET /admin/home2_app/product/?o=2 HTTP/1.1" 200 14355
+INFO 2023-09-02 07:48:49,977 basehttp 19980 12596 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:52,813 basehttp 19980 12596 "GET /admin/home2_app/product/?o=3.2 HTTP/1.1" 200 14773
+INFO 2023-09-02 07:48:52,848 basehttp 19980 12596 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:56,928 basehttp 19980 12596 "GET /admin/home2_app/product/?o=-3.2 HTTP/1.1" 200 14802
+INFO 2023-09-02 07:48:56,965 basehttp 19980 12596 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:57,761 basehttp 19980 12596 "GET /admin/home2_app/product/?o=3.2 HTTP/1.1" 200 14773
+INFO 2023-09-02 07:48:57,794 basehttp 19980 12596 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:48:59,230 basehttp 19980 12596 "GET /admin/home2_app/product/?o=4.3.2 HTTP/1.1" 200 15137
+INFO 2023-09-02 07:48:59,262 basehttp 19980 12596 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:49:01,579 basehttp 19980 12596 "GET /admin/home2_app/product/?o=-2.4.3 HTTP/1.1" 200 15168
+INFO 2023-09-02 07:49:01,608 basehttp 19980 12596 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:49:11,402 basehttp 19980 12596 "GET /admin/home2_app/product/?o=-2.4.3 HTTP/1.1" 200 15168
+INFO 2023-09-02 07:49:11,438 basehttp 19980 12596 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:49:11,857 autoreload 19980 5728 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:49:12,493 autoreload 17796 18908 Watching for file changes with StatReloader
+INFO 2023-09-02 07:49:12,804 basehttp 17796 26684 "GET /admin/home2_app/product/?o=-2.4.3 HTTP/1.1" 200 15168
+INFO 2023-09-02 07:49:12,835 basehttp 17796 26684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:49:13,929 basehttp 17796 26684 "GET /admin/home2_app/product/?o=-3.-2.4 HTTP/1.1" 200 15199
+INFO 2023-09-02 07:49:13,961 basehttp 17796 26684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:49:14,602 basehttp 17796 26684 "GET /admin/home2_app/product/?o=3.-2.4 HTTP/1.1" 200 15168
+INFO 2023-09-02 07:49:14,634 basehttp 17796 26684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:49:15,347 basehttp 17796 26684 "GET /admin/home2_app/product/?o=-3.-2.4 HTTP/1.1" 200 15199
+INFO 2023-09-02 07:49:15,379 basehttp 17796 26684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:49:32,177 autoreload 17796 18908 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:49:32,847 autoreload 5340 29080 Watching for file changes with StatReloader
+INFO 2023-09-02 07:49:58,590 basehttp 5340 22856 "GET /admin/home2_app/product/?o=-3.-2.4 HTTP/1.1" 200 15199
+INFO 2023-09-02 07:49:58,629 basehttp 5340 22856 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:50:36,071 basehttp 5340 22856 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:50:36,506 autoreload 5340 29080 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:50:37,133 autoreload 14376 13684 Watching for file changes with StatReloader
+INFO 2023-09-02 07:50:37,577 basehttp 14376 5084 "GET /admin/home2_app/order/ HTTP/1.1" 200 9619
+INFO 2023-09-02 07:50:37,607 basehttp 14376 5084 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:50:39,210 basehttp 14376 5084 "GET /admin/ HTTP/1.1" 200 8222
+INFO 2023-09-02 07:50:40,267 basehttp 14376 5084 "GET /admin/home2_app/product/ HTTP/1.1" 200 13978
+INFO 2023-09-02 07:50:40,299 basehttp 14376 5084 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:51:40,224 basehttp 14376 5084 "GET /admin/home2_app/product/ HTTP/1.1" 200 13978
+INFO 2023-09-02 07:51:40,268 basehttp 14376 5084 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:51:40,670 autoreload 14376 13684 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:51:41,370 autoreload 24612 2532 Watching for file changes with StatReloader
+INFO 2023-09-02 07:51:41,766 basehttp 24612 16232 "GET /admin/home2_app/product/ HTTP/1.1" 200 14176
+INFO 2023-09-02 07:51:41,794 basehttp 24612 16232 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:54:54,883 basehttp 24612 16232 "GET /admin/home2_app/product/ HTTP/1.1" 200 14176
+INFO 2023-09-02 07:54:54,927 basehttp 24612 16232 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:54:55,436 autoreload 24612 2532 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:54:56,072 autoreload 25124 20908 Watching for file changes with StatReloader
+INFO 2023-09-02 07:55:02,204 basehttp 25124 28212 "GET /admin/home2_app/product/ HTTP/1.1" 200 14266
+INFO 2023-09-02 07:55:02,236 basehttp 25124 28212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:55:02,809 basehttp 25124 28212 "GET /admin/home2_app/product/ HTTP/1.1" 200 14266
+INFO 2023-09-02 07:55:02,835 basehttp 25124 28212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:55:03,335 basehttp 25124 28212 "GET /admin/home2_app/product/ HTTP/1.1" 200 14266
+INFO 2023-09-02 07:55:03,362 basehttp 25124 28212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:55:08,321 basehttp 25124 28212 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:55:08,351 basehttp 25124 28212 "GET /admin/home2_app/product/ HTTP/1.1" 200 14459
+INFO 2023-09-02 07:55:08,386 basehttp 25124 28212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:55:08,460 basehttp 25124 28212 "GET /static/admin/img/icon-alert.svg HTTP/1.1" 200 504
+INFO 2023-09-02 07:55:18,488 basehttp 25124 28212 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:55:18,521 basehttp 25124 28212 "GET /admin/home2_app/product/ HTTP/1.1" 200 14171
+INFO 2023-09-02 07:55:18,549 basehttp 25124 28212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:58:16,969 basehttp 25124 28212 "GET /admin/home2_app/product/ HTTP/1.1" 200 14171
+INFO 2023-09-02 07:58:17,010 basehttp 25124 28212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:58:17,384 autoreload 25124 20908 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 07:58:18,045 autoreload 16616 12596 Watching for file changes with StatReloader
+INFO 2023-09-02 07:58:18,318 basehttp 16616 3648 "GET /admin/home2_app/product/ HTTP/1.1" 200 14158
+INFO 2023-09-02 07:58:18,348 basehttp 16616 3648 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 07:58:25,114 basehttp 16616 3648 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 07:58:25,142 basehttp 16616 3648 "GET /admin/home2_app/product/ HTTP/1.1" 200 14158
+INFO 2023-09-02 07:58:25,171 basehttp 16616 3648 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:07:09,202 autoreload 16616 12596 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:07:10,020 autoreload 26704 13976 Watching for file changes with StatReloader
+INFO 2023-09-02 08:07:27,532 autoreload 26704 13976 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:07:28,187 autoreload 21940 12712 Watching for file changes with StatReloader
+INFO 2023-09-02 08:07:29,036 basehttp 21940 396 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:07:29,106 basehttp 21940 396 "GET /admin/home2_app/product/ HTTP/1.1" 200 14278
+INFO 2023-09-02 08:07:29,210 basehttp 21940 396 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2023-09-02 08:07:35,123 log 21940 396 Internal Server Error: /admin/home2_app/product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1959, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home5_app\admin.py", line 17, in set_price
+    a =queryset.price +100
+       ^^^^^^^^^^^^^^
+AttributeError: 'QuerySet' object has no attribute 'price'
+ERROR 2023-09-02 08:07:35,127 basehttp 21940 396 "POST /admin/home2_app/product/ HTTP/1.1" 500 110102
+INFO 2023-09-02 08:08:12,346 autoreload 21940 12712 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:08:13,032 autoreload 15148 14084 Watching for file changes with StatReloader
+INFO 2023-09-02 08:08:13,396 basehttp 15148 16352 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:08:13,471 basehttp 15148 16352 "GET /admin/home2_app/product/ HTTP/1.1" 200 14153
+INFO 2023-09-02 08:08:13,511 basehttp 15148 16352 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:08:19,743 basehttp 15148 16352 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:08:19,770 basehttp 15148 16352 "GET /admin/home2_app/product/ HTTP/1.1" 200 14153
+INFO 2023-09-02 08:08:19,805 basehttp 15148 16352 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:08:34,779 autoreload 15148 14084 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:08:35,374 autoreload 21124 9336 Watching for file changes with StatReloader
+INFO 2023-09-02 08:08:36,206 basehttp 21124 3684 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 11748
+INFO 2023-09-02 08:08:36,260 basehttp 21124 3684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:08:40,219 basehttp 21124 3684 "POST /admin/home2_app/product/8/change/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:08:40,257 basehttp 21124 3684 "GET /admin/home2_app/product/ HTTP/1.1" 200 14421
+INFO 2023-09-02 08:08:40,290 basehttp 21124 3684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:08:43,824 basehttp 21124 3684 "GET /admin/home2_app/product/7/change/ HTTP/1.1" 200 11764
+INFO 2023-09-02 08:08:43,855 basehttp 21124 3684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:08:47,165 basehttp 21124 3684 "POST /admin/home2_app/product/7/change/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:08:47,197 basehttp 21124 3684 "GET /admin/home2_app/product/ HTTP/1.1" 200 14472
+INFO 2023-09-02 08:08:47,230 basehttp 21124 3684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:08:59,642 basehttp 21124 3684 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11751
+INFO 2023-09-02 08:08:59,679 basehttp 21124 3684 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:09:06,318 autoreload 21124 9336 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:09:07,063 autoreload 7748 22768 Watching for file changes with StatReloader
+ERROR 2023-09-02 08:09:07,264 log 7748 1096 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (category, date_added, rating) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (category, date_added, rating) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:09:07,271 basehttp 7748 1096 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135437
+INFO 2023-09-02 08:09:32,957 autoreload 7748 22768 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:09:33,661 autoreload 2428 17236 Watching for file changes with StatReloader
+ERROR 2023-09-02 08:09:33,895 log 2428 3216 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:09:33,901 basehttp 2428 3216 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135329
+ERROR 2023-09-02 08:09:52,263 log 2428 3216 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:09:52,266 basehttp 2428 3216 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135329
+INFO 2023-09-02 08:09:52,386 autoreload 2428 17236 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:09:53,088 autoreload 6548 4644 Watching for file changes with StatReloader
+INFO 2023-09-02 08:10:01,530 autoreload 6548 4644 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:10:02,191 autoreload 7528 11308 Watching for file changes with StatReloader
+INFO 2023-09-02 08:10:03,438 basehttp 7528 19576 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11751
+INFO 2023-09-02 08:10:03,488 basehttp 7528 19576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:10:35,991 basehttp 7528 19576 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11751
+INFO 2023-09-02 08:10:36,037 basehttp 7528 19576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:10:36,327 autoreload 7528 11308 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:10:36,977 autoreload 7404 4264 Watching for file changes with StatReloader
+ERROR 2023-09-02 08:10:37,351 log 7404 16000 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:10:37,356 basehttp 7404 16000 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135329
+ERROR 2023-09-02 08:10:37,797 log 7404 16000 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:10:37,800 basehttp 7404 16000 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135329
+ERROR 2023-09-02 08:11:08,257 log 7404 16000 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:11:08,261 basehttp 7404 16000 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135329
+INFO 2023-09-02 08:11:08,897 autoreload 7404 4264 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:11:09,533 autoreload 14740 1616 Watching for file changes with StatReloader
+INFO 2023-09-02 08:11:17,973 autoreload 14740 1616 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:11:18,586 autoreload 21304 21680 Watching for file changes with StatReloader
+INFO 2023-09-02 08:12:33,183 autoreload 21304 21680 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:12:33,841 autoreload 12884 7620 Watching for file changes with StatReloader
+INFO 2023-09-02 08:12:46,348 autoreload 12884 7620 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:12:46,954 autoreload 21828 10664 Watching for file changes with StatReloader
+INFO 2023-09-02 08:13:00,782 autoreload 14412 9864 Watching for file changes with StatReloader
+INFO 2023-09-02 08:13:21,440 autoreload 14412 9864 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:13:22,084 autoreload 5912 18040 Watching for file changes with StatReloader
+INFO 2023-09-02 08:13:30,530 autoreload 5912 18040 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:13:31,152 autoreload 14088 11784 Watching for file changes with StatReloader
+INFO 2023-09-02 08:13:31,580 basehttp 14088 9464 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11751
+INFO 2023-09-02 08:13:31,634 basehttp 14088 9464 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:14:58,468 basehttp 14088 9464 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11751
+INFO 2023-09-02 08:14:58,515 basehttp 14088 9464 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:14:59,155 autoreload 14088 11784 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:14:59,807 autoreload 7320 11452 Watching for file changes with StatReloader
+INFO 2023-09-02 08:15:13,240 autoreload 7320 11452 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:15:13,880 autoreload 18792 28928 Watching for file changes with StatReloader
+INFO 2023-09-02 08:15:30,445 autoreload 18792 28928 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:15:31,082 autoreload 22556 9220 Watching for file changes with StatReloader
+INFO 2023-09-02 08:16:11,416 autoreload 5488 17716 Watching for file changes with StatReloader
+INFO 2023-09-02 08:17:08,696 autoreload 5488 17716 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:17:09,265 autoreload 20400 11696 Watching for file changes with StatReloader
+INFO 2023-09-02 08:17:41,098 autoreload 20400 11696 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:17:41,771 autoreload 4028 2984 Watching for file changes with StatReloader
+INFO 2023-09-02 08:17:42,100 basehttp 4028 3576 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 10453
+INFO 2023-09-02 08:17:42,226 basehttp 4028 3576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:17:50,484 basehttp 4028 3576 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 10453
+INFO 2023-09-02 08:17:50,519 basehttp 4028 3576 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:17:51,262 autoreload 4028 2984 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:17:51,936 autoreload 6856 27840 Watching for file changes with StatReloader
+INFO 2023-09-02 08:17:52,195 basehttp 6856 28788 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 9114
+INFO 2023-09-02 08:17:52,224 basehttp 6856 28788 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:18:25,323 basehttp 6856 28788 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 9114
+INFO 2023-09-02 08:18:25,403 basehttp 6856 28788 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:18:25,944 autoreload 6856 27840 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:18:26,633 autoreload 19844 15336 Watching for file changes with StatReloader
+INFO 2023-09-02 08:18:26,960 basehttp 19844 15304 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 10625
+INFO 2023-09-02 08:18:26,987 basehttp 19844 15304 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:18:55,523 autoreload 19844 15336 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:18:56,208 autoreload 17060 17964 Watching for file changes with StatReloader
+INFO 2023-09-02 08:18:56,464 basehttp 17060 14600 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 10674
+INFO 2023-09-02 08:18:56,505 basehttp 17060 14600 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:19:36,139 basehttp 17060 14600 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 10674
+INFO 2023-09-02 08:19:36,174 basehttp 17060 14600 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:19:36,374 autoreload 17060 17964 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:19:37,053 autoreload 10668 25320 Watching for file changes with StatReloader
+INFO 2023-09-02 08:19:37,440 basehttp 10668 10908 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11301
+INFO 2023-09-02 08:19:37,474 basehttp 10668 10908 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:20:03,504 basehttp 10668 10908 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11301
+INFO 2023-09-02 08:20:03,549 basehttp 10668 10908 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:20:03,886 autoreload 10668 25320 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:20:04,560 autoreload 15920 12512 Watching for file changes with StatReloader
+ERROR 2023-09-02 08:20:15,623 log 15920 1268 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:20:15,628 basehttp 15920 1268 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135591
+INFO 2023-09-02 08:20:16,202 autoreload 15920 12512 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:20:16,767 autoreload 19500 11316 Watching for file changes with StatReloader
+ERROR 2023-09-02 08:20:36,776 log 19500 24600 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:20:36,781 basehttp 19500 24600 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135591
+ERROR 2023-09-02 08:20:37,571 log 19500 24600 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 321, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: Unknown field(s) (date_added) specified for Product. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:20:37,574 basehttp 19500 24600 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 135591
+INFO 2023-09-02 08:20:37,596 autoreload 19500 11316 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:20:38,252 autoreload 27080 12212 Watching for file changes with StatReloader
+ERROR 2023-09-02 08:20:38,608 log 27080 27972 Internal Server Error: /admin/home2_app/product/1/change/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 809, in get_form
+    return modelform_factory(self.model, **defaults)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 642, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 300, in __new__
+    fields = fields_for_model(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\forms\models.py", line 198, in fields_for_model
+    raise FieldError(
+django.core.exceptions.FieldError: 'data_adding' cannot be specified for Product model form as it is a non-editable field
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1889, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1747, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1782, in _changeform_view
+    ModelForm = self.get_form(
+                ^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 811, in get_form
+    raise FieldError(
+django.core.exceptions.FieldError: 'data_adding' cannot be specified for Product model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ProductAdmin.
+ERROR 2023-09-02 08:20:38,612 basehttp 27080 27972 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 500 141876
+INFO 2023-09-02 08:20:48,772 autoreload 27080 12212 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:20:49,448 autoreload 5416 25380 Watching for file changes with StatReloader
+INFO 2023-09-02 08:20:49,716 basehttp 5416 23208 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11855
+INFO 2023-09-02 08:20:49,758 basehttp 5416 23208 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:21:41,604 basehttp 5416 23208 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 11855
+INFO 2023-09-02 08:21:41,653 basehttp 5416 23208 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:21:41,862 autoreload 5416 25380 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:21:42,519 autoreload 16184 19944 Watching for file changes with StatReloader
+INFO 2023-09-02 08:21:46,412 basehttp 16184 2676 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 12692
+INFO 2023-09-02 08:21:46,448 basehttp 16184 2676 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:22:26,230 basehttp 16184 2676 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 12692
+INFO 2023-09-02 08:22:26,272 basehttp 16184 2676 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:22:26,811 autoreload 16184 19944 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:22:27,442 autoreload 12196 8868 Watching for file changes with StatReloader
+INFO 2023-09-02 08:22:27,819 basehttp 12196 25212 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 12544
+INFO 2023-09-02 08:22:27,851 basehttp 12196 25212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+WARNING 2023-09-02 08:22:29,502 log 12196 25212 Not Found: /media/zavod.jpg
+WARNING 2023-09-02 08:22:29,502 basehttp 12196 25212 "GET /media/zavod.jpg HTTP/1.1" 404 2762
+INFO 2023-09-02 08:22:31,446 basehttp 12196 25212 "GET /admin/home2_app/product/1/change/ HTTP/1.1" 200 12544
+INFO 2023-09-02 08:22:47,340 basehttp 12196 25212 "GET /admin/ HTTP/1.1" 200 8836
+INFO 2023-09-02 08:22:48,155 autoreload 12196 8868 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:22:48,815 autoreload 14560 848 Watching for file changes with StatReloader
+INFO 2023-09-02 08:22:49,349 basehttp 14560 23656 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+INFO 2023-09-02 08:22:49,382 basehttp 14560 23656 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:22:52,340 basehttp 14560 23656 "GET /admin/home2_app/client/3/change/ HTTP/1.1" 200 11738
+INFO 2023-09-02 08:22:52,384 basehttp 14560 23656 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:22:55,677 basehttp 14560 23656 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+INFO 2023-09-02 08:24:52,304 basehttp 14560 23656 "GET /admin/home2_app/client/ HTTP/1.1" 200 9892
+INFO 2023-09-02 08:24:52,352 basehttp 14560 23656 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:24:52,506 autoreload 14560 848 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:24:53,229 autoreload 14220 27580 Watching for file changes with StatReloader
+INFO 2023-09-02 08:24:53,753 basehttp 14220 20432 "GET /admin/ HTTP/1.1" 200 8836
+INFO 2023-09-02 08:24:55,095 basehttp 14220 20432 "GET /admin/home2_app/order/ HTTP/1.1" 200 9754
+INFO 2023-09-02 08:24:55,131 basehttp 14220 20432 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:25:14,257 basehttp 14220 20432 "GET /admin/home2_app/order/ HTTP/1.1" 200 9754
+INFO 2023-09-02 08:25:14,292 basehttp 14220 20432 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:25:14,947 autoreload 14220 27580 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:25:15,583 autoreload 14868 1160 Watching for file changes with StatReloader
+INFO 2023-09-02 08:25:22,983 autoreload 14868 1160 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:25:23,613 autoreload 22700 23872 Watching for file changes with StatReloader
+INFO 2023-09-02 08:25:23,891 basehttp 22700 22212 "GET /admin/ HTTP/1.1" 200 8836
+INFO 2023-09-02 08:25:26,124 basehttp 22700 22212 "GET /admin/home2_app/order/ HTTP/1.1" 200 9754
+INFO 2023-09-02 08:25:26,162 basehttp 22700 22212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:25:27,414 basehttp 22700 22212 "GET /admin/home2_app/order/2/change/ HTTP/1.1" 200 13395
+INFO 2023-09-02 08:25:27,445 basehttp 22700 22212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:25:39,477 basehttp 22700 22212 "GET /admin/home2_app/order/ HTTP/1.1" 200 9754
+INFO 2023-09-02 08:25:45,056 basehttp 22700 22212 "GET /admin/ HTTP/1.1" 200 8836
+INFO 2023-09-02 08:25:46,625 basehttp 22700 22212 "GET /admin/home2_app/order/ HTTP/1.1" 200 9754
+INFO 2023-09-02 08:25:46,654 basehttp 22700 22212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:25:54,777 basehttp 22700 22212 "GET /admin/home2_app/order/1/change/ HTTP/1.1" 200 13389
+INFO 2023-09-02 08:25:54,820 basehttp 22700 22212 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:26:29,195 autoreload 22700 23872 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:26:29,867 autoreload 3548 18968 Watching for file changes with StatReloader
+INFO 2023-09-02 08:26:30,606 basehttp 3548 6444 "GET /admin/home2_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 7747
+INFO 2023-09-02 08:26:30,647 basehttp 3548 6444 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:26:36,174 basehttp 3548 6444 "POST /admin/home2_app/product/add/?_to_field=id&_popup=1 HTTP/1.1" 200 8034
+INFO 2023-09-02 08:26:36,205 basehttp 3548 6444 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:28:01,595 basehttp 3548 6444 "GET /admin/ HTTP/1.1" 200 8836
+INFO 2023-09-02 08:28:01,969 autoreload 3548 18968 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:28:02,637 autoreload 19276 21528 Watching for file changes with StatReloader
+INFO 2023-09-02 08:28:03,747 basehttp 19276 22776 "GET /admin/home2_app/product/ HTTP/1.1" 200 14191
+INFO 2023-09-02 08:28:03,779 basehttp 19276 22776 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:28:05,513 basehttp 19276 22776 "GET /admin/home2_app/product/7/change/ HTTP/1.1" 200 12556
+INFO 2023-09-02 08:28:05,551 basehttp 19276 22776 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:28:14,369 basehttp 19276 22776 "POST /admin/home2_app/product/7/change/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:28:14,399 basehttp 19276 22776 "GET /admin/home2_app/product/ HTTP/1.1" 200 14408
+INFO 2023-09-02 08:28:14,430 basehttp 19276 22776 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:31:08,623 autoreload 16584 1664 Watching for file changes with StatReloader
+INFO 2023-09-02 08:31:09,022 basehttp 16584 27860 "GET /admin/home2_app/product/ HTTP/1.1" 200 14188
+INFO 2023-09-02 08:31:09,070 basehttp 16584 27860 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:31:48,700 autoreload 16584 1664 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:31:49,403 autoreload 20108 14252 Watching for file changes with StatReloader
+INFO 2023-09-02 08:31:55,013 basehttp 20108 3048 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:31:55,051 basehttp 20108 3048 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:32:00,346 basehttp 20108 3048 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:32:00,375 basehttp 20108 3048 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:32:00,405 basehttp 20108 3048 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:32:11,421 basehttp 20108 3048 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:32:11,455 basehttp 20108 3048 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:32:11,483 basehttp 20108 3048 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:32:28,583 autoreload 20108 14252 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:32:29,287 autoreload 22568 22876 Watching for file changes with StatReloader
+INFO 2023-09-02 08:32:32,626 basehttp 22568 8508 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:32:32,695 basehttp 22568 8508 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:32:32,732 basehttp 22568 8508 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:34:10,871 autoreload 22568 22876 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:34:11,544 autoreload 13708 26584 Watching for file changes with StatReloader
+ERROR 2023-09-02 08:34:13,443 log 13708 27336 Internal Server Error: /admin/home2_app/product/
+Traceback (most recent call last):
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 688, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\views\decorators\cache.py", line 62, in _wrapper_view_func
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\sites.py", line 242, in inner
+    return view(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1959, in changelist_view
+    response = self.response_action(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\django_homework\Lib\site-packages\django\contrib\admin\options.py", line 1593, in response_action
+    response = func(self, request, queryset)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\teach\pyt\django_homework\home_project\home5_app\admin.py", line 17, in set_price
+    obj.update()
+    ^^^^^^^^^^
+AttributeError: 'Product' object has no attribute 'update'
+ERROR 2023-09-02 08:34:13,445 basehttp 13708 27336 "POST /admin/home2_app/product/ HTTP/1.1" 500 110056
+INFO 2023-09-02 08:34:27,272 autoreload 13708 26584 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:34:27,885 autoreload 14488 28028 Watching for file changes with StatReloader
+INFO 2023-09-02 08:34:28,229 basehttp 14488 16964 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:34:28,295 basehttp 14488 16964 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:34:28,340 basehttp 14488 16964 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:34:33,529 basehttp 14488 16964 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:34:33,556 basehttp 14488 16964 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:34:33,587 basehttp 14488 16964 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:34:38,083 basehttp 14488 16964 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 12539
+INFO 2023-09-02 08:34:38,118 basehttp 14488 16964 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:36:08,158 autoreload 14488 28028 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:36:08,862 autoreload 4604 17060 Watching for file changes with StatReloader
+INFO 2023-09-02 08:36:24,333 autoreload 4604 17060 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:36:24,915 autoreload 7784 22364 Watching for file changes with StatReloader
+INFO 2023-09-02 08:36:26,281 basehttp 7784 21828 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:36:26,335 basehttp 7784 21828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:36:36,466 basehttp 7784 21828 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:36:36,495 basehttp 7784 21828 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:36:36,526 basehttp 7784 21828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:36:45,822 basehttp 7784 21828 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 12539
+INFO 2023-09-02 08:36:45,859 basehttp 7784 21828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:37:39,661 basehttp 7784 21828 "GET /admin/home2_app/product/8/change/ HTTP/1.1" 200 12539
+INFO 2023-09-02 08:37:39,705 basehttp 7784 21828 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:37:39,854 autoreload 7784 22364 C:\teach\pyt\django_homework\home_project\home5_app\admin.py changed, reloading.
+INFO 2023-09-02 08:37:40,490 autoreload 15320 28928 Watching for file changes with StatReloader
+INFO 2023-09-02 08:37:42,576 basehttp 15320 7068 "GET /admin/ HTTP/1.1" 200 9143
+INFO 2023-09-02 08:37:47,673 basehttp 15320 7068 "GET /admin/home2_app/product/ HTTP/1.1" 200 14249
+INFO 2023-09-02 08:37:47,715 basehttp 15320 7068 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:37:54,219 basehttp 15320 7068 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:37:54,248 basehttp 15320 7068 "GET /admin/home2_app/product/ HTTP/1.1" 200 14198
+INFO 2023-09-02 08:37:54,283 basehttp 15320 7068 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:38:08,513 basehttp 15320 7068 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:38:08,547 basehttp 15320 7068 "GET /admin/home2_app/product/ HTTP/1.1" 200 14391
+INFO 2023-09-02 08:38:08,578 basehttp 15320 7068 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:38:14,256 basehttp 15320 7068 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:38:14,285 basehttp 15320 7068 "GET /admin/home2_app/product/ HTTP/1.1" 200 14198
+INFO 2023-09-02 08:38:14,317 basehttp 15320 7068 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-02 08:38:20,167 basehttp 15320 7068 "POST /admin/home2_app/product/ HTTP/1.1" 302 0
+INFO 2023-09-02 08:38:20,195 basehttp 15320 7068 "GET /admin/home2_app/product/ HTTP/1.1" 200 14150
+INFO 2023-09-02 08:38:20,227 basehttp 15320 7068 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
